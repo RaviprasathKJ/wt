@@ -1,0 +1,45 @@
+<HealthcareData>
+    <PatientRecord>
+        <PatientID>12345</PatientID>
+        <Name>
+            <FirstName>John</FirstName>
+            <LastName>Doe</LastName>
+        </Name>
+        <DateOfBirth>1980-05-15</DateOfBirth>
+        <Gender>Male</Gender>
+        <Address>
+            <Street>123 Main St</Street>
+            <City>Anytown</City>
+            <State>AnyState</State>
+            <ZipCode>12345</ZipCode>
+        </Address>
+        <ContactInformation>
+            <PhoneNumber>123-456-7890</PhoneNumber>
+            <EmailAddress>johndoe@email.com</EmailAddress>
+        </ContactInformation>
+        <MedicalHistory>
+            <Diagnosis>
+                <Date>2022-01-01</Date>
+                <Description>High blood pressure</Description>
+            </Diagnosis>
+            <Diagnosis>
+                <Date>2023-05-10</Date>
+                <Description>Diabetes</Description>
+            </Diagnosis>
+        </MedicalHistory>
+        <Prescriptions>
+            <Prescription>
+                <Date>2023-09-15</Date>
+                <MedicationName>Medication A</MedicationName>
+                <Dosage>10mg</Dosage>
+                <Frequency>Twice a day</Frequency>
+            </Prescription>
+            <Prescription>
+                <Date>2023-10-01</Date>
+                <MedicationName>Medication B</MedicationName>
+                <Dosage>20mg</Dosage>
+                <Frequency>Once a day</Frequency>
+            </Prescription>
+        </Prescriptions>
+    </PatientRecord>
+</HealthcareData>

@@ -1,0 +1,17 @@
+<movies>
+    <movie>
+        <title>Movie Title 1</title>
+        <duration>120</duration>
+        <genre>Action</genre>
+    </movie>
+    <movie>
+        <title>Movie Title 2</title>
+        <duration>150</duration>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Movie Title 3</title>
+        <duration>105</duration>
+        <genre>Comedy</genre>
+    </movie>
+</movies>

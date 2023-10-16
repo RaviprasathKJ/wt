@@ -1,0 +1,13 @@
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<catalog>
+  <book>
+    <title>Book Title 1</title>
+    <author>Author Name 1</author>
+    <year>2000</year>
+  </book>
+  <book>
+    <title>Book Title 2</title>
+    <author>Author Name 2</author>
+    <year>2005</year>
+  </book>
+</catalog>

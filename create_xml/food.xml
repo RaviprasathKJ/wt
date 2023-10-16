@@ -1,0 +1,35 @@
+<menu>
+  <foodItem>
+    <name>
+     IDLY
+    </name>
+    <price>
+     10
+    </price>
+    <des>
+    NOICE
+    </des>
+  </foodItem>
+    <foodItem>
+    <name>
+     DOSA
+    </name>
+    <price>
+    50
+    </price>
+    <des>
+    TASTY
+    </des>
+  </foodItem>
+    <foodItem>
+    <name>
+    VADA
+    </name>
+    <price>
+    5
+    </price>
+    <des>
+    ROASTY AND CRACKY
+    </des>
+  </foodItem>
+</menu>

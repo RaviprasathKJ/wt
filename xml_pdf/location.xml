@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherData>
+ <Location>
+   <place>Vellore</place>
+   <temperature>30 degree</temperature>
+   <humidity>low</humidity>
+ </Location>
+  <Location>
+   <place>Chennai</place>
+   <temperature>29 degree</temperature>
+   <humidity>very low</humidity>
+ </Location>
+  <Location>
+   <place>Bangalore</place>
+   <temperature>20 degree</temperature>
+   <humidity>high</humidity>
+ </Location>
+</weatherData>

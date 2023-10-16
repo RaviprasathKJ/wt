@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist>
+    <song>
+        <title>Song Title 1</title>
+        <artist>Artist 1</artist>
+        <duration>4:30</duration>
+    </song>
+    <song>
+        <title>Song Title 2</title>
+        <artist>Artist 2</artist>
+        <duration>3:45</duration>
+    </song>
+    <!-- Add more songs here -->
+</playlist>

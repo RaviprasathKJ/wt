@@ -1,0 +1,48 @@
+<AviationData>
+    <Aircraft>
+        <Manufacturer>Boeing</Manufacturer>
+        <Model>737-800</Model>
+        <SerialNumber>ABC123</SerialNumber>
+        <RegistrationNumber>N12345</RegistrationNumber>
+        <Engine>
+            <Manufacturer>CFM International</Manufacturer>
+            <Model>CFM56-7B</Model>
+        </Engine>
+        <Seats>
+            <Class>Economy</Class>
+            <Number>150</Number>
+        </Seats>
+        <Seats>
+            <Class>Business</Class>
+            <Number>20</Number>
+        </Seats>
+        <MaxTakeoffWeight>174200</MaxTakeoffWeight> <!-- in pounds -->
+        <MaxCruisingSpeed>530</MaxCruisingSpeed> <!-- in knots -->
+    </Aircraft>
+    <Flight>
+        <FlightNumber>BA123</FlightNumber>
+        <DepartureAirport>LHR</DepartureAirport>
+        <DepartureTime>2023-10-15T08:00:00Z</DepartureTime>
+        <ArrivalAirport>JFK</ArrivalAirport>
+        <ArrivalTime>2023-10-15T15:30:00Z</ArrivalTime>
+        <Aircraft>
+            <AircraftID>ABC123</AircraftID>
+        </Aircraft>
+    </Flight>
+    <Airport>
+        <Code>LHR</Code>
+        <Name>London Heathrow Airport</Name>
+        <Location>
+            <Latitude>51.4700</Latitude>
+            <Longitude>-0.4543</Longitude>
+        </Location>
+    </Airport>
+    <Airport>
+        <Code>JFK</Code>
+        <Name>John F. Kennedy International Airport</Name>
+        <Location>
+            <Latitude>40.6413</Latitude>
+            <Longitude>-73.7781</Longitude>
+        </Location>
+    </Airport>
+</AviationData>

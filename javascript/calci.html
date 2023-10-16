@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <script>
+        const calculator = {
+            add: function (a, b) { return a + b; },
+            subtract: function (a, b) { return a - b; },
+            multiply: function (a, b) { return a * b; },
+            divide: function (a, b) { return a / b; }
+        };
+
+        window.onload = function () {
+            const num1 = parseFloat(prompt("Enter first number:"));
+            const num2 = parseFloat(prompt("Enter second number:"));
+
+            if (isNaN(num1) || isNaN(num2)) {
+                alert("Please enter valid numbers.");
+            } else {
+                const addResult = calculator.add(num1, num2);
+                const subResult = calculator.subtract(num1, num2);
+                const mulResult = calculator.multiply(num1, num2);
+                const divResult = calculator.divide(num1, num2);
+
+                alert("Addition result: " + addResult +
+                    "\nSubtraction result: " + subResult +
+                    "\nMultiplication result: " + mulResult +
+                    "\nDivision result: " + divResult);
+            }
+        };
+    </script>
+</head>
+<body>
+    <h2>Calculator Application</h2>
+</body>
+</html>
